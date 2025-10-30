@@ -501,14 +501,14 @@ textarea {
 .project__media {
     min-height: clamp(220px, 32vw, 340px);
     border-radius: clamp(26px, 3vw, 38px);
-    background: linear-gradient(135deg, rgba(15, 87, 69, 0.76), rgba(12, 40, 32, 0.9)), url("/img/projet-centre.jpg") center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(15, 31, 27, 0.18), rgba(16, 58, 49, 0.25)), url("/img/concept-projet.png") center/cover no-repeat;
     box-shadow: var(--shadow-strong);
     position: relative;
     overflow: hidden;
 }
 
 .project__media::after {
-    content: "Visuel du futur centre";
+    content: "Visuel de la salle de prière";
     position: absolute;
     bottom: 1.2rem;
     left: 1.6rem;
