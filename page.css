@@ -823,6 +823,24 @@ textarea {
 }
 
 @media (max-width: 720px) {
+    .nav__links {
+        padding: clamp(5rem, 20vh, 7rem) clamp(1.5rem, 8vw, 3rem);
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .nav__links a {
+        width: min(320px, 100%);
+        margin-inline: auto;
+        justify-content: center;
+        font-size: clamp(1.1rem, 3.6vw, 1.4rem);
+        padding: clamp(0.9rem, 3.4vw, 1.1rem) clamp(1.8rem, 8vw, 2.6rem);
+        border-radius: 28px;
+        background: rgba(255, 255, 255, 0.16);
+        border: 1px solid rgba(255, 255, 255, 0.24);
+        box-shadow: 0 20px 42px -26px rgba(0, 0, 0, 0.7);
+    }
+
     .top-nav {
         border-radius: 24px;
         margin-top: 1rem;
